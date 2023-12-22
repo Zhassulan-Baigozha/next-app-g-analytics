@@ -1,3 +1,4 @@
+import { pagesList } from './constants/links'
 
 export default function Home() {
   return (
@@ -5,7 +6,7 @@ export default function Home() {
       textAlign: "center",
       marginTop: "50px"
     }}>
-      Home page
+      <a href={pagesList.dashboard}>{pagesList.dashboard}</a>
     </main>
   )
 }
